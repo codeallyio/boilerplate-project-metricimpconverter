@@ -41,13 +41,6 @@ suite('Unit Tests', function(){
       done();
     });
 
-    // // Still discussing how to handle double fractions
-    // test('Invalid Input (double fraction)', function(done) {
-    //   let input='13/13/13'
-    //   assert.equal(convertHandler.getNum(input),'invalid number')
-    //   done();
-    // });
-
     test('No Numerical Input', function(done) {
       assert.equal(convertHandler.getNum('lbs'),1)
       assert.equal(convertHandler.getNum('gal'),1)
