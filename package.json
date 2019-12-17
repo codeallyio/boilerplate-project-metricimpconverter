@@ -7,7 +7,7 @@
 	"description": "What am I about?",
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "PORT=8080 node server.js"
 	},
 	"dependencies": {
 		"express": "^4.14.0",
@@ -21,7 +21,7 @@
 		"helmet": "^3.1.0"
 	},
 	"engines": {
-		"node": "4.4.3"
+		"node": "10.17.0"
 	},
 	"repository": {
 		"type": "git",
