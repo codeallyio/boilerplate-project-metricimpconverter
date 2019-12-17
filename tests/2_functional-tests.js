@@ -42,17 +42,7 @@ suite('Functional Tests', function() {
           assert.equal(res.body.error, "invalid unit")
           done();
         });
-      });
-      
-      // // Still discussing how to handle double fractions
-      // test('Convert 3/7.2/4kg (invalid number)', function(done) {
-      //   chai.request(server)
-      //   .get('/api/convert')
-      //   .query({input: '3/7.2/4kg'})
-      //   .end(function(err, res){
-      //     done();
-      //   });
-      // });  
+      });  
       
       test('Convert 1a4kkg (invalid number and unit)', function(done) {
         chai.request(server)
